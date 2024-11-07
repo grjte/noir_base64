@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.0](https://github.com/grjte/noir_base64/compare/v0.3.0...v0.4.0) (2024-11-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* add padding support & make it optional ([#21](https://github.com/grjte/noir_base64/issues/21))
+
+### Features
+
+* Add padding support & make it optional ([#21](https://github.com/grjte/noir_base64/issues/21)) ([d9bd959](https://github.com/grjte/noir_base64/commit/d9bd959bf9e01074515f48c8fa2c0fbdfb36120d))
+* Add support for base64url alphabet ([#24](https://github.com/grjte/noir_base64/issues/24)) ([dfed9dd](https://github.com/grjte/noir_base64/commit/dfed9dd81c2f91947f235cf2d674e26449cfcadd))
+
+
+### Bug Fixes
+
+* Formatting error in test with nightly compiler ([#18](https://github.com/grjte/noir_base64/issues/18)) ([4bc4c4b](https://github.com/grjte/noir_base64/commit/4bc4c4ba40e786d1795ae809893c3700cfca4dc4))
+* Reversed encoding/decoding and related errors ([#14](https://github.com/grjte/noir_base64/issues/14)) ([cc5b18a](https://github.com/grjte/noir_base64/commit/cc5b18af99c22069748863257d8c6480e04dbd4a))
+* Update to support noir 0.34.0 ([#6](https://github.com/grjte/noir_base64/issues/6)) ([367e2d4](https://github.com/grjte/noir_base64/commit/367e2d49028c9f062620f547c4ee53154a853f0c))
+
 ## [0.3.0](https://github.com/noir-lang/noir_base64/compare/v0.2.3...v0.3.0) (2024-10-30)
 
 
